@@ -20,14 +20,14 @@ public class Handphone extends Perangkat {
     }  
 
     public void telfon(int no_hp){
-        System.out.println();
+        System.out.println("handphone berhasil menghubungkan telfon ke nomor "+no_hp);
     }
 
     public void kirimSMS(int no_hp){
-        System.out.println();
+        System.out.println("handphone berhasil mengirim SMS ke nomor "+no_hp);
     } 
 
     public void kirimSMS(int no_hp1, int no_hp2){
-        System.out.println();
+        System.out.println("handphone berhasil mengirim SMS ke nomor "+no_hp1+" dan nomor "+no_hp2);
     }
 }
